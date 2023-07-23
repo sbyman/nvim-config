@@ -2,7 +2,7 @@
 
 ## Install basic dependencies
 1.  ```
-    sudo apt install neovim fzf fd-find jq maven zsh
+    sudo apt install neovim fzf fd-find jq maven zsh git subversion
     ```
 
 ## Install oh-my-zsh

@@ -2,8 +2,18 @@
 
 ## Install basic dependencies
 1.  ```
-    sudo apt install neovim fzf fd-find jq maven
+    sudo apt install neovim fzf fd-find jq maven zsh
     ```
+
+## Install oh-my-zsh
+
+    ```
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```
+
+then copy the .zshrc on your home folder
+
 NOTE: if you are on ubuntu there is need to add:
     ```
     alias fd=fdfind

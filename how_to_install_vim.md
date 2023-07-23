@@ -2,7 +2,11 @@
 
 ## Install basic dependencies
 1.  ```
-    sudo apt install neovim fzf fd jq maven
+    sudo apt install neovim fzf fd-find jq maven
+    ```
+NOTE: if you are on ubuntu there is need to add:
+    ```
+    alias fd=fdfind
     ```
 ## Install SDK manager
 2.  ```
